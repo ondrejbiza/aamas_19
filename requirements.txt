@@ -1,1 +1,5 @@
+numpy==1.16.0
+sklearn==0.20.2
+scipy==0.17.0
+matplotlib==3.0.2
 tensorflow-gpu==1.7.0
