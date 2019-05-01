@@ -10,7 +10,23 @@
 
 ### Train a deep Q-network
 
+#### Discrete environments
+
+```
+python -m abstract.scripts.solve.puck_stack_n.dqn_branch 2 4 --max-time-steps 2500 --max-episodes 200 --learning-rate 0.0001 --batch-size 30
+```
+
+```
+python -m abstract.scripts.solve.puck_stack_n.dqn_branch 3 4 --max-episodes 1000 --max-time-steps 20000 --exploration-fraction 0.25 --learning-rate 0.0001 --batch-size 30
+```
+
+#### Fully convolutional network for pseudo-continuous environments
+
 ### Transfer options between environmnets using MDP homomorphisms
+
+#### Discrete environments
+
+#### Pseudo-continuous environments
 
 ## Environments
 
